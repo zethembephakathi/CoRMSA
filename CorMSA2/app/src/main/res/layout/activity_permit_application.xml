@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pie"
+    tools:context=".permit_application">
+
+    <!-- Heading: Personal Information -->
+    <TextView
+        android:id="@+id/textViewPersonalInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Information"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Existing EditTexts -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPersonalInfo"
+        android:hint="Full Name"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/editTextCellphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp"
+        android:hint="Cellphone"/>
+
+    <!-- New EditText for Passport ID -->
+    <EditText
+        android:id="@+id/editTextPassportId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCellphone"
+        android:layout_marginTop="16dp"
+        android:hint="Passport ID"/>
+
+    <!-- Heading: Permit Details -->
+    <TextView
+        android:id="@+id/textViewPermitDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permit Details"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/editTextPassportId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Existing Spinner and Button -->
+    <Spinner
+        android:id="@+id/spinnerPermitType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPermitDetails"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerPermitType"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Apply"/>
+
+</RelativeLayout>

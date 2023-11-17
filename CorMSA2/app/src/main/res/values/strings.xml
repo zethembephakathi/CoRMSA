@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CorMSA</string>
+    <string-array name="permit_types">
+        <item>Asylum Status</item>
+        <item>Refugee Status</item>
+        <item>Driver Permit</item>
+        <item>Business Permit</item>
+        <!-- Add more permit types as needed -->
+    </string-array>
+
+    <!-- res/values/strings.xml -->
+    <string-array name="accommodation_types">
+        <item>Shared Housing</item>
+        <item>Reception Centers</item>
+        <item>Shared Housing</item>
+        <item>Refugee Camps</item>
+        <item>Transit Centers</item>
+        <!-- Add more accommodation types as needed -->
+    </string-array>
+    <!-- res/values/strings.xml -->
+    <string-array name="education_types">
+        <item>Education for Children</item>
+        <item>Language Learning</item>
+        <item>Adult Education</item>
+        <item>Vocational Training</item>
+        <item>Entrepreneurship Programs</item>
+        <!-- Add more education types as needed -->
+    </string-array>
+
+</resources>

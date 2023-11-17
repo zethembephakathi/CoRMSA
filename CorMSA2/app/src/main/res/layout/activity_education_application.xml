@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/take"
+    android:padding="16dp">
+
+    <!-- Heading: Personal Information -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Information"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextEducationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"/>
+
+    <EditText
+        android:id="@+id/editTextEducationEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/editTextEducationCellphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Phone Number"/>
+
+    <EditText
+        android:id="@+id/editTextEducationNationality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nationality"/>
+    <EditText
+        android:id="@+id/editTextEducationPassportNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Passport Number"/>
+    <EditText
+        android:id="@+id/editTextEducationPermitNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Upload Permit Number"/>
+
+    <!-- Heading: Skills and Passport Information -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills and Passport Information"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextEducationSkills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skills and Expertise"/>
+
+
+
+    <!-- Heading: Education Type and Permit Number -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education Type and Permit Number"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerEducationType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Select Education Type"/>
+
+
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSaveEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="Save"/>
+</LinearLayout>
+

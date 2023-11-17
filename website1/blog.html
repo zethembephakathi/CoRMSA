@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name ="viewport"  content = "with=device-width, initial-scale=1.0">
+
+<title>CorMsa</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofpX6P5Z8eFvTlAA8F8p+94FE5ZN5WpUo" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+      <section class="sub-header">
+	  <nav>
+	  <a href = "index.html"><img src ="images/logo.png" ></a>
+	  <div class= "nav-links" id = "navLinks">
+	  <i class="fa fa-times"onclick="hideMenu()"></i>
+	  <ul>
+	   <li><a href="Home.html">HOME</a></li>
+		  <li><a href="ABOUTUs.html">ABOUTUs</a></li>
+                  <li><a href="Gallery.html">Gallery</a></li>
+		  <li><a href="Services.html">SERVICES</a></li>
+		  <li><a href="blog.html">BLOG</a></li>
+		  <li><a href="contact.html">CONTACT</a></li>
+	  </ul>
+	  </div>
+	  <i class="fa fa-bars" onclick="ShowMenu()"></i>
+	  </nav>
+	  <h1> Our Blog</h1>
+	  
+	  </section>
+	   <!-------Blog------->  
+       <section class="blog-content">
+	   <div class="row">
+	   <div class="blog-left">
+	   <img src="images/shebe.jpg">
+	   <h2>HERITAGE MONTH COMMEMORATIONS</h2>
+	   <p>CoRMSA, in partnership with Tshwane Leadership Foundation (TLF), commemorated the diverse cultures in <br>South Africa including asylum seekers, refugees, and migrant cultures where various cultures showcased their cultural dances, music and poetry <br>in honour of the Heritage Month. 
+	   The objective was to promote social cohesion among different communities.</p>
+	   <h2>SOCIAL COHESION DIALOGUE</h2>
+	   <p>We hosted and facilitated a collaborative Dialogue with the Centre for the Study of Violence and Reconciliation on social cohesion and 
+	   resilience in South African communities, in Soweto, White City Jabavu, with participants from various communities including youth. <br>The objective was to promote unity in diversity among youths and other participants from various backgrounds and nationalities through information sharing.
+
+“Co-existence is possible in our communities if people are well informed,” says CoRMSA</p>
+
+<h2>FREE HEALTHCARE SERVICES TO ALL MIGRANT PREGNANT AND LACTATING WOMEN AND CHILDREN UNDER THE AGE OF 6 – UPDATED POLICY</h2>
+	   <p>Good news to all migrant, refugee, and asylum seeker pregnant and lactating women and children under the age of 6.
+<br>You can now access free healthcare services at government hospitals regardless of your nationality and documentation status….document or no document!</p>
+       <div class="container">
+	   <h2>Leave Comment</h2>
+        <form action="" id="commentForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." />
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+		
+        </form>
+    </div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+	   </div>
+	   <div class="blog-right">
+	   <h3> Our Work</h3>
+	   <div> <Span>Permits</Span>
+	   <Span>452</Span>
+	   </div>
+	   <div> <Span>Housing</Span>
+	   <Span>452</Span>
+	   </div>
+	   <div> <Span>Businesses</Span>
+	   <Span>452</Span>
+	   </div>
+	   <div> <Span>Reports</Span>
+	   <Span>452</Span>
+	   </div>
+	   <div> <Span>healthcare</Span>
+	   <Span>452</Span>
+	   </div>
+	   <div> <Span>Education</Span>
+	   <Span>452</Span>
+	   </div>
+	   </div>
+	   </div>
+	  </section>
+	 
+	    
+	  <!-------footer------->  
+	  <section class="footer">
+	  <h4>CorMsa</h4>
+	  <p>Author: CoRMSA</p>
+  
+	  <div class="social-icons">
+            <a href="https://www.facebook.com/CoRMSANews">Facebook</a>
+            <a href="https://x.com/CoRMSA?t=5jNUeGBsnIJjow8c2X--yw&s=09">Twitter</a>
+            <a href="https://play.google.com/store/apps">PlayStore</a>
+	  </div>
+	  <p> Made With Love<i class="fa fa-heart-o"></i> by Monarchy</p>
+	  </section> 
+	
+	  
+	  
+<script>
+<!----Javascript for toggle menu ------>
+var navLinks = document.getElementById("navLinks");
+fumction ShowMenu(){
+navLinks.style.right ="0";
+
+}
+fumction hideMenu(){
+navLinks.style.right ="-200px";
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+
+</body>
+</html>

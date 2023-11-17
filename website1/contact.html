@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name ="viewport"  content = "with=device-width, initial-scale=1.0">
+
+<title>CorMsa</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofpX6P5Z8eFvTlAA8F8p+94FE5ZN5WpUo" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+      <section class="sub-header">
+	  <nav>
+	  <a href = "index.html"><img src ="images/logo.png" ></a>
+	  <div class= "nav-links" id = "navLinks">
+	  <i class="fa fa-times"onclick="hideMenu()"></i>
+	  <ul>
+	       <li><a href="Home.html">HOME</a></li>
+		  <li><a href="ABOUTUs.html">ABOUTUs</a></li>
+		  <li><a href="Gallery.html">Gallery</a></li>
+		  <li><a href="Services.html">SERVICES</a></li>
+		  <li><a href="blog.html">BLOG</a></li>
+		  <li><a href="contact.html">CONTACT</a></li>
+	  </ul>
+	  </div>
+	  <i class="fa fa-bars" onclick="ShowMenu()"></i>
+	  </nav>
+	  <h1> Contact Us</h1>
+	  
+	  </section>
+	  <!-------Contact------->  
+	  <section class="location">
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14320.41567448764!2d28.0362671!3d-26.1932976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c1960481885%3A0x7b9caa1af0e6b686!2sCoRMSA!5e0!3m2!1sen!2sza!4v1699615858855!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	  
+	  </section>
+	 <section  class="contact-us">
+	 <div class="row"> 
+	        <div  class="contact-col">
+			<div>
+			
+			<span>
+			<h5> Address</h5> <p>87 De Korte St, Heerengracht Building Braamfontein,
+			Johannesburg, South Africa </p>
+			</span>
+			</div>
+			<div>
+			<span>
+			<h5>Phone </h5><p>+27 011 403 7560/0032/0033
+			Monday To Friday, 9am to 4pm </p>
+			</span>
+			</div>
+			
+			<div>
+			<span>
+			<h5>Email Us Your Query </h5><p>info@cormsa.org.za
+			Monday To Friday, 9am to 4pm </p>
+			</span>
+			</div>
+			<div>
+			<span>
+			<h5>Trading Hours </h5><p>
+			Monday To Friday, 9am to 4pm </p>
+			</span>
+			</div>
+			</div>
+			<div class="container">
+			<h2>Contact Us</h2>
+			<form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." />
+            </div>
+			<div class="inputBox">
+                <input type="Subject" id="sub" placeholder="Subject" />
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Send Message</button>
+            </div>
+		
+        </form>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./maill.js"></script>
+		
+	 
+	 </div>
+	 </section>
+	 
+	 
+	 
+	 <!-------footer------->  
+	  <section class="footer">
+	  <h4>CorMsa</h4>
+	  <p>Author: CoRMSA</p>
+  
+	  <div class="social-icons">
+            <a href="https://www.facebook.com/CoRMSANews">Facebook</a>
+            <a href="https://x.com/CoRMSA?t=5jNUeGBsnIJjow8c2X--yw&s=09">Twitter</a>
+            <a href="https://play.google.com/store/apps">PlayStore</a>
+	  </div>
+	  <p> Made With Love<i class="fa fa-heart-o"></i> by Monarchy</p>
+	  </section> 
+	
+	
+	  
+	  
+<script>
+<!----Javascript for toggle menu ------>
+var navLinks = document.getElementById("navLinks");
+fumction ShowMenu(){
+navLinks.style.right ="0";
+
+}
+fumction hideMenu(){
+navLinks.style.right ="-200px";
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./maill.js"></script>
+</body>
+</html>

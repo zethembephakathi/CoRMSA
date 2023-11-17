@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name ="viewport"  content = "with=device-width, initial-scale=1.0">
+
+<title>CorMsa</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofpX6P5Z8eFvTlAA8F8p+94FE5ZN5WpUo" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+      <section class="sub-header">
+	  <nav>
+	  <a href = "index.html"><img src ="images/logo.png" ></a>
+	  <div class= "nav-links" id = "navLinks">
+	  <i class="fa fa-times"onclick="hideMenu()"></i>
+	  <ul>
+	        <li><a href="Home.html">HOME</a></li>
+		  <li><a href="ABOUTUs.html">ABOUTUs</a></li>
+		  <li><a href="Gallery.html">Gallery</a></li>
+		  <li><a href="Services.html">SERVICES</a></li>
+		  <li><a href="blog.html">BLOG</a></li>
+		  <li><a href="contact.html">CONTACT</a></li>
+	  </ul>
+	  </div>
+	  <i class="fa fa-bars" onclick="ShowMenu()"></i>
+	  </nav>
+	  <h1> About Us</h1>
+	  
+	  </section>
+	  <section  class="about-us">
+	  <div class="row">
+	   <div class="about-col">
+	   <h1>VISION</h1>
+	   <p>To  create  a society in which the human rights of asylum seekers, refugees and migrants are recognised through advocacy, capacity building, policy formulation,
+	   practices and networking in South Africa and the region to ensure that the daily challenges faced by non-nationals are addressed.</p>
+	   <h1>MISSION</h1>
+	   <p>To promote and protect the human rights of asylum seekers, refugees and other international migrants in ways that promote the well-being of all in South Africa 
+	   and the region collectively with our member partners.</p>
+	   <h1>BACKGROUND</h1>
+	   <p>The Consortium for Refugees and Migrants in South Africa (CoRMSA),  is a national network  comprising of twenty-six (26) member organisations in good standing. It was established in South Africa in 1998 but formally registered in 2001.
+          It has over twenty years of experience working on migration and refugee protection engaging in advocacy and lobbying, including policy submissions, coordination and network building, capacity building, community engagement and dialogue, rights awareness and information sharing.
+          Our member organisations include legal practitioners, community-based refugees and migrant-led organisations, advice offices, academic institutions and social service providers amongst others.</p>
+	   <h1>OBJECTIVES</h1>
+	   <p>CoRMSA’s overall objective is to protect and promote asylum seekers, refugees and migrants’ rights in South Africa , regionally and internationally.
+
+<br>Our main activities include:
+
+<br>Advocacy and Lobbying
+
+<br>Capacity Building
+
+<br>Network Building & Information Sharing
+
+</p>
+	   <a href="Services.html"class="hero-btn  red-btn" > Explore</a>
+	   </div>
+	  <div class="about-col">
+	   <img src="images/a.JPG">
+	   </div>
+	  
+	  
+	  </section>
+	 
+	  <!-------footer------->  
+	  <section class="footer">
+	  <h4>CorMsa</h4>
+	  <p>Author: CoRMSA</p>
+  
+	  <div class="social-icons">
+            <a href="https://www.facebook.com/CoRMSANews">Facebook</a>
+            <a href="https://x.com/CoRMSA?t=5jNUeGBsnIJjow8c2X--yw&s=09">Twitter</a>
+            <a href="https://play.google.com/store/apps">PlayStore</a>
+	  </div>
+	  <p> Made With Love<i class="fa fa-heart-o"></i> by Monarchy</p>
+	  </section> 
+	
+	
+	  
+	  
+<script>
+<!----Javascript for toggle menu ------>
+var navLinks = document.getElementById("navLinks");
+fumction ShowMenu(){
+navLinks.style.right ="0";
+
+}
+fumction hideMenu(){
+navLinks.style.right ="-200px";
+}
+</script>
+
+</body>
+</html>
